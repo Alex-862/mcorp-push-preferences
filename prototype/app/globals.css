@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #d1d5db;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.phone-frame {
+  width: 100%;
+  max-width: 390px;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
